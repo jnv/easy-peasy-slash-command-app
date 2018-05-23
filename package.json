@@ -1,32 +1,26 @@
 {
-  "name": "awesomeslashcommand",
+  "name": "@jnv/scrumbot",
   "version": "1.0.0",
-  "description": "The awesomest slash command evar.",
-  "main": "index.js",
+  "description": "Who is the current Scrum Master?",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app.git"
   },
   "keywords": [
     "slack",
     "slash command"
   ],
-  "author": "D.E. Goodman-Wilson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app/issues"
-  },
-  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-slash-command-app#readme",
-  "engines": {
-    "node": "5.1.1"
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint": "^8.8.1"
   },
   "dependencies": {
-    "botkit": "0.0.5",
-    "botkit-storage-mongo": "^1.0.2",
-    "mongodb": "^1.4.39"
+    "botkit": "git+https://github.com/jnv/botkit.git"
   }
 }
