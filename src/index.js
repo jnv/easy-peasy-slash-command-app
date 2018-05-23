@@ -1,6 +1,5 @@
 'use strict'
 
-/* Uses the slack button feature to offer a real time bot to multiple teams */
 const Botkit = require('botkit')
 const { join: pathResolve } = require('path')
 
